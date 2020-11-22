@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fff;
+    font-family: 'Titillium Web', sans-serif;
+ }
+
+
+
+.container{
+    background-color:#fff;
+    border-radius:10px;
+    max-width: 640px;
+    
+}
+
+header{
+    padding: 70px 0;
+    border-radius:10px;
+    background-color:rgb(223, 247, 252); 
+     
+}
+
+
+.list-gruop-item {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+.complete{
+    text-decoration:line-through;
+   
+}
+
+.todo-completed{
+    background-color:#bafcd0;
+}
